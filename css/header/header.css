@@ -1,0 +1,20 @@
+@import "header_common.css";
+@import "sub_menu.css";
+@import "main_menu.css";
+@import "badges.css";
+
+:root {
+    --header-color-white: #f6f5f0;
+    --header-color-white-two: #c8c8c8;
+
+    --menu-font-family: Arial;
+    --menu-font-size: 13px;
+    --menu-li-font-size: 14px;
+    --menu-color-white: #e5e5e5;
+    --menu-color-white-two: #cccccc;
+    --menu-color-gray: #656565;
+    --menu-color-gray-two: #999999;
+    --menu-color-black: #000000;
+    --menu-color-black-two: #2c2a29;
+    --menu-color-green: #669900;
+}

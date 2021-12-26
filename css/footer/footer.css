@@ -1,0 +1,43 @@
+@import "menu.css";
+@import "info.css";
+@import "btn.css";
+
+:root {
+    --footer-color-black: #272727;
+    --footer-color-white: #cccccc;
+    --footer-color-green: #669900;
+    --footer-color-gray: #555555;
+    --footer-color-gray-two: #999999;
+
+    --footer-font-size: 12px;
+}
+
+/*FOOTER */
+footer {
+    background-color: var(--body-color-black, #272727);
+    border-top: 1px solid var(--default-color-black, #333);
+}
+footer .inner {
+    padding: 40px 0 60px 0;
+}
+
+#to-top {
+    width: 42px;
+    height: 42px;
+    background-color: #333;
+    color: #ffff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9;
+}
+
+@import "menu.css";
+@import "btn.css";
+@import "info.css";

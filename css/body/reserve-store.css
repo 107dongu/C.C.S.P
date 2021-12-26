@@ -1,0 +1,46 @@
+/* RESERVE STORE */
+.reserve-store {
+    background-image: url("../../images/reserve_store_bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.reserve-store .inner {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reserve-store .modal {
+    width: 334px;
+    height: 334px;
+    perspective: 600px;
+}
+.reserve-store .modal .front,
+.reserve-store .modal .back {
+    width: 334px;
+    height: 334px;
+    backface-visibility: hidden;
+    transition: 1s;
+    position: absolute;
+}
+.reserve-store .modal .front {
+    transform: rotateY(var(--body-rotate-init, 0deg));
+}
+.reserve-store .modal:hover .front {
+    transform: rotateY(var(--body-rotate-front, 180deg));
+}
+.reserve-store .modal .back {
+    transform: rotateY(var(--body-rotate-back, -180deg));
+}
+.reserve-store .modal:hover .back {
+    transform: rotateY(var(--body-rotate-init, 0deg));
+}
+.reserve-store .modal .back .btn {
+    position: absolute;
+    top: 240px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

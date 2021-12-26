@@ -1,0 +1,22 @@
+
+footer .info {
+    margin-top: 30px;
+    text-align: center;
+}
+footer .info span {
+    margin-right: 20px;
+    color: var(--footer-color-gray-two, #999999);
+    font-size: 12px;
+}
+footer .info span:last-child {
+    margin-right: 0;
+}
+footer .copyright {
+    color: var(--footer-color-gray-two, #999999);
+    font-size: 12px;
+    text-align: center;
+    margin-top: 12px;
+}
+footer .logo {
+    margin: 30px auto 0;
+}

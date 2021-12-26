@@ -1,0 +1,12 @@
+footer .btn-group {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+footer .btn-group .btn {
+    font-size: 12px;
+    margin-right: 10px;
+}
+footer .btn-group .btn:last-child {
+    margin-right: 0;
+}

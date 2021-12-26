@@ -1,0 +1,30 @@
+footer .menu {
+    display: flex;
+    justify-content: center;
+}
+footer .menu li {
+    position: relative;
+}
+footer .menu li::before {
+    content: "";
+    width: 3px;
+    height: 3px;
+    background-color: var(--footer-color-gray, #555);
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: -1px;
+    margin: auto;
+}
+footer .menu li:last-child::before {
+    display: none;
+}
+footer .menu li a {
+    color: var(--footer-color-white, #ccc);
+    font-size: var(--footer-font-size, 12px);
+    font-weight: 700;
+    padding: 15px;
+}
+footer .menu li a.green {
+    color: var(--footer-color-green, #669900);
+}

@@ -1,0 +1,24 @@
+@import "awards.css";
+@import "body_rewards.css";
+@import "find-store.css";
+@import "notice.css";
+@import "pick-your-favorite.css";
+@import "reserve-coffee.css";
+@import "reserve-store.css";
+@import "season-product.css";
+@import "visual.css";
+@import "youtube.css";
+
+:root {
+    --btn-color-brown: #592B18;
+    --btn-color-gold: #FFD700;
+
+    --body-color-white: #f6f5ef;
+    --body-color-black: #272727;
+    --body-color-yellow: #d5c798;
+    --body-color-gray: #555555;
+
+    --body-rotate-init: 0deg;
+    --body-rotate-front: 180deg;
+    --body-rotate-back: -180deg;
+}

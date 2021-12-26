@@ -1,0 +1,59 @@
+.btn {
+    width: 130px;
+    padding: 10px;
+    border: 2px solid var(--default-color-black, #333333);
+    border-radius: 4px;
+    color: var(--default-color-black, #333333);
+    font-size: var(--default-font-size, 16px);
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: block;
+    transition: .4s;
+}
+.btn:hover {
+    background-color: var(--default-color-black, #333333);
+    color: var(--default-color-white, #ffffff);
+}
+
+/* reverse color btn */
+.btn.btn--reverse {
+    background-color: var(--default-color-white);
+    color: var(--default-color-black, #333333);
+}
+.btn-btn--reverse:hover {
+    background-color: transparent;
+    color: var(--default-color-black, #333333);
+}
+
+/* brown color btn */
+.btn.btn--brown {
+    color: var(--btn-color-brown, #592B18);
+    border-color: var(--btn-color-brown, #592B18);
+}
+.btn.btn--brown:hover {
+    color: var(--default-color-white);
+    background-color: var(--btn-color-brown, #592B18);
+}
+
+/* white color btn */
+.btn.btn--white {
+    color: var(--default-color-white, #ffffff);
+    border-color: var(--default-color-white, #ffffff);
+}
+.btn.btn--white:hover {
+    color: var(--default-color-black, #333333);
+    border-color: var(--default-color-white, #ffffff);
+}
+
+/** gold color btn */
+.btn.btn--gold {
+    --color: #FFD700;
+    color: var(--btn-color-gold, #FFD700);
+    border-color: var(--btn-color-gold, #FFD700);
+}
+.btn.btn--gold:hover {
+   color: var(--default-color-white, #ffffff);
+    background-color: var(--btn-color-gold, #FFD700);
+}
